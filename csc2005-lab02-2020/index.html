@@ -1,8 +1,6 @@
 <style>
     div:hover{
         animation: 10000ms ease-in-out infinite color-change;
-        color:white;
-        font-family: 'Dancing Script', cursive;;
     }
     body{
         background-color: black;
@@ -10,8 +8,11 @@
         font-family: 'Dancing Script', cursive;
         text-align: center;
     }
-    @media only screen and (max-width: 600px) {
-        body {
+    @media screen and (min-width: 400px) {
+        div {
+           display: flex;
+        }
+        body{
             color: red;
         }
     }
